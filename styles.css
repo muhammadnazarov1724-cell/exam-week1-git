@@ -354,6 +354,20 @@ header {
     margin: auto;
     margin-top: 100px;
 }
+.main12 {
+  height: 600px;
+  background-image: url(./images/Rectangle\ 1992.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
 
 
 
@@ -474,4 +488,13 @@ header {
     width: 90%;
     height: 200px;
   }
+  .main12 {
+    width: 100%;
+  }
+  .main12 p,h1 {
+    text-align: center;
+    font-size: 17px !important;
+    width: 80% !important;
+  }
+
 }
