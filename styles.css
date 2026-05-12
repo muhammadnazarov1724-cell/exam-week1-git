@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+header {
+    height: 800px;
+    background-image: url(./images/uae-4-2048x1367\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 35px;
+}
+.header1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 220px;
+}
+.linko {
+    display: flex;
+    gap: 30px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.brnvoiti {
+    color: white;
+    border-radius: 10px;
+    background-color: #07AF91;
+    padding: 10px 30px;
+    border: none;
+}
+.l1 {
+    color: white;
+    font-size: 43px;
+    font-weight: 700;
+    background-color: #07AF91;
+    padding: 5px;
+    display: inline;
+    width: 600px;
+}
+.btnpodat {
+    background-color: #49A3D5;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    width: 230px;
+}
+.header2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-left: 170px;
+    margin-top: 200px;
+}
+.clnone {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 510px) {
+    .linko {
+        display: none;
+  
+    }
+    .clnone {
+        display: block;
+    }
+    .header2 {
+        text-align: center;
+    }
+}
