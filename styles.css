@@ -60,6 +60,40 @@ header {
 .clnone {
     display: none;
 }
+.main1 {
+    width: 80%;
+    margin: auto;
+    margin-top: 120px;
+
+}
+.analitic {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    margin-top: 50px;
+}
+.isled {
+   display: flex;
+   flex-direction: column;
+   row-gap: 20px;
+}
+.btnuznat {
+    background-color: #07AF91;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    width: 320px;
+    padding:20px 0px;
+}
+.online {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    margin-top: 150px;
+}
+
 
 
 
@@ -80,4 +114,18 @@ header {
     .header2 {
         text-align: center;
     }
+    .analitic {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .btnuznat {
+        width: 98%;
+        margin: auto;
+    }
+    .online {
+        flex-direction: column;
+        width: 100%;
+        row-gap: 50px !important;
+    }
+
 }
