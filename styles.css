@@ -181,6 +181,55 @@ header {
     justify-content: center;
     align-items: center;
 }
+.main6 {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+.modul1 {
+    height: 70px;
+    border-bottom: 1px solid #E9E9E9;
+    display: flex;
+    gap: 15px;
+    padding-left: 50px;
+    align-items: center;
+}
+.modul2 {
+    height: 60px;
+    border-bottom: 1px solid #E9E9E9;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-weight: 350;
+}
+
+.moduls {
+    box-shadow: 0px 0px 8px gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 40px;
+}
+.tema1 {
+    height: 85px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px gray;
+    display: flex;
+    gap: 15px;
+    padding-left: 50px;
+    align-items: center;
+
+}
+.temas {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    row-gap: 30px;
+}
 
 
 
@@ -248,5 +297,20 @@ header {
     .main5 {
         width: 550px;
         height: 300px;
+    }
+    .moduls {
+        margin: auto;
+    }
+    .tema1 {
+        flex-direction: column;
+        align-items: center;
+        height: 120px;
+        justify-content: center;
+    }
+    .tema1 h1,p{
+     text-align: center;
+    }
+    .temas {
+        width: 100%;
     }
 }
