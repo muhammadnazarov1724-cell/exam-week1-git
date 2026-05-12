@@ -367,6 +367,19 @@ header {
   align-items: center;
   row-gap: 20px;
 }
+footer {
+    height: 145px;
+    background-image: url(./images/Group\ 870.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+}
 
 
 
