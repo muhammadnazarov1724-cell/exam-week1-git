@@ -261,6 +261,11 @@ header {
     grid-template-rows: repeat(3, 110px);
     gap: 20px;
 }
+.main8 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 120px;
+}
 
 
 
@@ -356,5 +361,8 @@ header {
     }
     .pic1 {
         width: 100%;
+    }
+    .box1 {
+        width: 520px;
     }
 }
