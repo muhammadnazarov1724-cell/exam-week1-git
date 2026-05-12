@@ -230,6 +230,37 @@ header {
     margin-top: 30px;
     row-gap: 30px;
 }
+.main7 {
+    height: 500px;
+    background-image: url(./images/Rectangle\ 1971.png);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+.dleft7 {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.btnzapis {
+    background-color: #07AF91;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 555;
+    width: 320px;
+    padding: 20px 0px;
+}
+.dr7 {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(3, 110px);
+    gap: 20px;
+}
 
 
 
@@ -311,6 +342,19 @@ header {
      text-align: center;
     }
     .temas {
+        width: 100%;
+    }
+    .dleft7 {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        justify-content: center;
+    }
+    .main7 {
+        flex-direction: column;
+        height: 850px;
+    }
+    .pic1 {
         width: 100%;
     }
 }
